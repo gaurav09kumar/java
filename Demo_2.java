@@ -23,8 +23,8 @@ public class Demo1{
 			String s1;
 			List al = new ArrayList();
 			Scanner sc = new Scanner(System.in);
-			Data obj1=new Data();
-			Demo2 obj2=new Demo2();
+			Demo_1 obj1=new Data();
+			Demo_3 obj2=new Demo2();
 			A <String>object1=new A<>();
 			A <Integer>object2=new A<>();
 			A <Double>object3=new A<>();
