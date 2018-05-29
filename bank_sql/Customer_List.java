@@ -191,8 +191,14 @@ public class Customer_List {
 			}
 			catch(InputMismatchException e) {
 				System.out.println("Enter valid inputs");
+				continue;
 			} catch (SQLException e) {
 				System.out.println("Problem connecting to server");
+				continue;
+			}
+			catch(Exception e){
+				System.out.println("Error Occured");
+				continue;
 			}
 		}
 	}
