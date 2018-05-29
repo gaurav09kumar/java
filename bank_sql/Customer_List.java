@@ -9,13 +9,11 @@ public class Customer_List {
 		ResultSet res1=null;
 		ResultSet res2=null;
 		ResultSet res3=null;
-
-		int r=0;;
+		int r=0;
 		Scanner s = new Scanner(System.in);
 		int balance = 0, withdraw, deposit;
 		int b=i;
 		System.out.println(b);
-
 		while(true) {
 			try {
 				System.out.println("Welcome Customer");
